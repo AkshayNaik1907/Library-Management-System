@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Admin Dashboard!</h1>
+    </header>
+    
+
+    <section class="admin-actions">
+        <div class="action-box">
+            <h3>Student Search</h3>
+            <form action="adminserver.php" method="post">
+                <input type="text" placeholder="Enter Student ID">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="action-box">
+            <h3>Book Search</h3>
+            <form action="adminserver.php" method="post">
+                <input type="text" placeholder="Enter book title">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+        
+
+        <div class="action-box">
+            <h3>Remove Book</h3>
+            <form action="adminserver.php" method="post">
+                <input type="text" placeholder="Enter book title to remove">
+                <button type="submit">Remove Book</button>
+            </form>
+        </div>
+
+        <div class="action-box">
+            <h3>Edit Library Events</h3>
+            <form action="adminserver.php" method="post">
+                <input type="text" placeholder="Enter Event ">
+                <button type="submit">Save Changes</button>
+            </form>
+        </div>
+        <div class="action-box">
+            <h3>Add Book</h3>
+            <form action="addbook.php" method="post">
+            <div>Book Name:</div><input type="text" name="bookname"/>
+            </br>
+            <div>Author:</div><input type="text" name="author"/></br>
+            <div>Branch:</div><br>
+            <div>CSE</div><input type="radio" name="branch" value="CSE"><br>
+            <div>ECE</div><input type="radio" name="branch" value="ECE"><br>
+            <div>EEE</div><input type="radio" name="branch" value="EEE"><br>
+            <div>Civil</div><input type="radio" name="branch" value="Civil"><br>
+            <div>Mechanical</div><input type="radio" name="branch" value="Mechanical"><br>
+            
+            <div>Quantity:</div><input type="number" name="bookquantity"/></br>
+             <button type="submit">Add Book</button>
+            </form>
+        </div>
+
+    </section>
+    
+    <footer>
+        <h2>Help and Support</h2>
+        <p>If you need assistance or have any questions, please contact our support team at support@examplelibrary.com.</p>
+    </footer>
+</body>
+</html>

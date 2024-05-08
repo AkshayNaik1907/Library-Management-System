@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #4ca0af;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.admin-actions {
+    display: flex;
+    justify-content:left;
+    flex-wrap:wrap; 
+    margin: 20px;
+}
+
+.action-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px ;
+    width: 500px;
+}
+.addbook {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px ;
+    width: 500px;
+}
+
+
+.action-box h3 {
+    color: #4ca0af;
+}
+.addbook h3 {
+    color: #4ca0af;
+}
+
+
+
+.admin-actions form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-actions input,
+.admin-actions button {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #4ca0af;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+.remove{
+    background-color: #4ca0af;
+    border-radius: 0%;
+    color: black;
+}
+
+
+
+

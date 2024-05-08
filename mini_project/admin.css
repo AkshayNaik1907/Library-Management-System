@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #4ca0af;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.admin-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.action-box,
+.addbook {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.action-box h3,
+.addbook h3 {
+    color: #4ca0af;
+}
+
+.admin-actions form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-actions input,
+.admin-actions button {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #4ca0af;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.remove {
+    background-color: #4ca0af;
+    border-radius: 0%;
+    color: black;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    .action-box,
+    .addbook {
+        width: 100%;
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+}
